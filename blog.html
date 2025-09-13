@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Creative Studio Insights</title>
+    <meta name="description" content="Discover creative insights, design trends, and industry expertise from Creative Studio. Stay inspired with our latest articles on design, branding, and digital innovation.">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html">
+                    <h2>Creative<span class="accent">Studio</span></h2>
+                </a>
+            </div>
+            <div class="nav-menu" id="navMenu">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html#services" class="nav-link">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html#portfolio" class="nav-link">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="blog.html" class="nav-link active">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link cta-button">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="page-header-content">
+                <h1>Creative Insights</h1>
+                <p>Discover the latest trends, techniques, and insights from the world of design and creativity.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Post -->
+    <section class="featured-post">
+        <div class="container">
+            <article class="featured-article">
+                <div class="featured-image">
+                    <img src="https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="The Future of Brand Design" />
+                    <div class="featured-badge">Featured</div>
+                </div>
+                <div class="featured-content">
+                    <div class="post-meta">
+                        <span class="category">Brand Design</span>
+                        <span class="date">December 15, 2024</span>
+                        <span class="read-time">8 min read</span>
+                    </div>
+                    <h2>The Future of Brand Design: Trends Shaping 2025</h2>
+                    <p>Explore the emerging trends that are revolutionizing brand design, from AI-assisted creativity to sustainable design practices. Discover how forward-thinking brands are adapting to the digital-first world.</p>
+                    <div class="post-author">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80" alt="Alex Thompson" />
+                        <div class="author-info">
+                            <span class="author-name">Alex Thompson</span>
+                            <span class="author-role">Creative Director</span>
+                        </div>
+                    </div>
+                    <a href="#" class="btn btn-primary">Read Article</a>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- Blog Categories -->
+    <section class="blog-categories">
+        <div class="container">
+            <div class="categories-header">
+                <h2>Browse by Category</h2>
+            </div>
+            <div class="categories-filters">
+                <button class="category-filter active" data-category="all">All Posts</button>
+                <button class="category-filter" data-category="design">Design</button>
+                <button class="category-filter" data-category="branding">Branding</button>
+                <button class="category-filter" data-category="video">Video</button>
+                <button class="category-filter" data-category="trends">Trends</button>
+                <button class="category-filter" data-category="tips">Tips & Tricks</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Posts -->
+    <section class="blog-posts">
+        <div class="container">
+            <div class="posts-grid">
+                <article class="blog-post" data-category="design">
+                    <div class="post-image">
+                        <img src="https://images.unsplash.com/photo-1586717791821-3f44a563fa4c?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Minimalist Design Principles" />
+                        <div class="post-category">Design</div>
+                    </div>
+                    <div class="post-content">
+                        <div class="post-meta">
+                            <span class="date">December 10, 2024</span>
+                            <span class="read-time">5 min read</span>
+                        </div>
+                        <h3>Mastering Minimalist Design: Less is More</h3>
+                        <p>Discover the principles behind effective minimalist design and how to create impactful visuals with fewer elements.</p>
+                        <div class="post-footer">
+                            <div class="author-small">
+                                <img src="https://images.unsplash.com/photo-1494790108755-2616c395d3e8?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="Sarah Mitchell" />
+                                <span>Sarah Mitchell</span>
+                            </div>
+                            <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="blog-post" data-category="branding">
+                    <div class="post-image">
+                        <img src="https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Color Psychology in Branding" />
+                        <div class="post-category">Branding</div>
+                    </div>
+                    <div class="post-content">
+                        <div class="post-meta">
+                            <span class="date">December 8, 2024</span>
+                            <span class="read-time">7 min read</span>
+                        </div>
+                        <h3>Color Psychology: How Colors Influence Brand Perception</h3>
+                        <p>Explore the psychological impact of colors in branding and learn how to choose the perfect palette for your brand identity.</p>
+                        <div class="post-footer">
+                            <div class="author-small">
+                                <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="Emma Rodriguez" />
+                                <span>Emma Rodriguez</span>
+                            </div>
+                            <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="blog-post" data-category="video">
+                    <div class="post-image">
+                        <img src="https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Video Marketing Trends" />
+                        <div class="post-category">Video</div>
+                    </div>
+                    <div class="post-content">
+                        <div class="post-meta">
+                            <span class="date">December 5, 2024</span>
+                            <span class="read-time">6 min read</span>
+                        </div>
+                        <h3>Video Marketing Trends That Will Dominate 2025</h3>
+                        <p>Stay ahead of the curve with these emerging video marketing trends that are reshaping how brands connect with audiences.</p>
+                        <div class="post-footer">
+                            <div class="author-small">
+                                <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="Marcus Chen" />
+                                <span>Marcus Chen</span>
+                            </div>
+                            <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="blog-post" data-category="tips">
+                    <div class="post-image">
+                        <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Creative Workflow Tips" />
+                        <div class="post-category">Tips & Tricks</div>
+                    </div>
+                    <div class="post-content">
+                        <div class="post-meta">
+                            <span class="date">December 3, 2024</span>
+                            <span class="read-time">4 min read</span>
+                        </div>
+                        <h3>10 Tools Every Creative Professional Should Know</h3>
+                        <p>Boost your creative workflow with these essential tools and techniques used by industry professionals.</p>
+                        <div class="post-footer">
+                            <div class="author-small">
+                                <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="David Kumar" />
+                                <span>David Kumar</span>
+                            </div>
+                            <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="blog-post" data-category="trends">
+                    <div class="post-image">
+                        <img src="https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Design Trends 2025" />
+                        <div class="post-category">Trends</div>
+                    </div>
+                    <div class="post-content">
+                        <div class="post-meta">
+                            <span class="date">November 28, 2024</span>
+                            <span class="read-time">9 min read</span>
+                        </div>
+                        <h3>Web Design Trends to Watch in 2025</h3>
+                        <p>From AI-powered interfaces to immersive experiences, discover the web design trends that will shape the digital landscape.</p>
+                        <div class="post-footer">
+                            <div class="author-small">
+                                <img src="https://images.unsplash.com/photo-1494790108755-2616c395d3e8?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="Sarah Mitchell" />
+                                <span>Sarah Mitchell</span>
+                            </div>
+                            <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="blog-post" data-category="branding">
+                    <div class="post-image">
+                        <img src="https://images.unsplash.com/photo-1493612276216-ee3925520721?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Brand Storytelling" />
+                        <div class="post-category">Branding</div>
+                    </div>
+                    <div class="post-content">
+                        <div class="post-meta">
+                            <span class="date">November 25, 2024</span>
+                            <span class="read-time">6 min read</span>
+                        </div>
+                        <h3>The Art of Brand Storytelling: Creating Emotional Connections</h3>
+                        <p>Learn how to craft compelling brand narratives that resonate with your audience and build lasting emotional connections.</p>
+                        <div class="post-footer">
+                            <div class="author-small">
+                                <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="Emma Rodriguez" />
+                                <span>Emma Rodriguez</span>
+                            </div>
+                            <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            
+            <!-- Load More Button -->
+            <div class="load-more">
+                <button class="btn btn-secondary" id="loadMoreBtn">Load More Articles</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <div class="newsletter-text">
+                    <h3>Stay Creative</h3>
+                    <p>Get the latest creative insights and industry trends delivered to your inbox weekly.</p>
+                </div>
+                <form class="newsletter-form" id="newsletterForm">
+                    <input type="email" placeholder="Enter your email address" required>
+                    <button type="submit" class="btn btn-accent">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <h3>Creative<span class="accent">Studio</span></h3>
+                        <p>Crafting creative experiences that inspire, engage, and transform brands worldwide.</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-behance"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html#services">Brand Design</a></li>
+                        <li><a href="index.html#services">Video Production</a></li>
+                        <li><a href="index.html#services">Web Design</a></li>
+                        <li><a href="index.html#services">Photography</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul class="footer-links">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="index.html#portfolio">Portfolio</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <div class="contact-info">
+                        <p><i class="fas fa-map-marker-alt"></i> 123 Creative Street, Design City, DC 12345</p>
+                        <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                        <p><i class="fas fa-envelope"></i> hello@creativestudio.com</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 Creative Studio. All rights reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+    <script src="js/blog.js"></script>
+</body>
+</html>
